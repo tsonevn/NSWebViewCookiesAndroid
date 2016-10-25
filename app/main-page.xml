@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+  <GridLayout rows="100  *" columns="">
+      <Button row="0" text="tap" tap="onTap" />
+      <WebView row="2" loaded="onviewloaded" src="https://httpbin.org/cookies/set?name=testname&username=testusername" />
+  </GridLayout>
+</Page>
